@@ -1,0 +1,43 @@
+Package: Cairo
+Version: 1.5-9
+Depends: R (>= 2.4.0)
+Imports: grDevices, graphics
+Suggests: png
+Enhances: FastRWeb
+License: GPL-2
+Archs: i386, x64
+
+Package: lattice
+Version: 0.20-35
+Priority: recommended
+Depends: R (>= 3.0.0)
+Imports: grid, grDevices, graphics, stats, utils
+Suggests: KernSmooth, MASS, latticeExtra
+Enhances: chron
+License: GPL (>= 2)
+Archs: i386, x64
+
+Package: MASS
+Version: 7.3-47
+Priority: recommended
+Depends: R (>= 3.1.0), grDevices, graphics, stats, utils
+Imports: methods
+Suggests: lattice, nlme, nnet, survival
+License: GPL-2 | GPL-3
+Archs: i386, x64
+
+Package: memisc
+Version: 0.99.8
+Depends: R (>= 3.0.0), lattice, stats, methods, utils, MASS
+Imports: grid
+Suggests: splines, knitr, rmarkdown
+Enhances: AER, car, eha, lme4, ordinal, simex
+License: GPL-2
+Archs: i386, x64
+
+Package: xtable
+Version: 1.8-2
+Depends: R (>= 2.10.0)
+Imports: stats, utils
+Suggests: knitr, lsmeans, spdep, splm, sphet, plm, zoo, survival
+License: GPL (>= 2)
